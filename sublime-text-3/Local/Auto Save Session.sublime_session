@@ -1,0 +1,504 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3176,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 707.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Add Repository"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/ione/.config/sublime-text-3/Packages/SublimeREPL/config/Python/ipy_repl.py",
+				"/home/ione/.config/sublime-text-3/Packages/User/Python3.sublime-build",
+				"/home/ione/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"())",
+					"version"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 120.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/Python3.sublime-build",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1329.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/ione/pyscripts/testingsubl.py",
+					"settings":
+					{
+						"buffer_size": 30,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Python 3.6.6 (default, Jun 27 2018, 14:44:17) \nType 'copyright', 'credits' or 'license' for more information\nIPython 7.0.1 -- An enhanced Interactive Python. Type '?' for help.\n*** *** *** *** *** *** *** *** *** *** \n\nIn [1]: import sys\n\nIn [2]: sys.args\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n<ipython-input-2-ddad71d71d62> in <module>\n----> 1 sys.args\n\nAttributeError: module 'sys' has no attribute 'args'\n\nIn [3]: sys.args\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n<ipython-input-3-ddad71d71d62> in <module>\n----> 1 sys.args\n\nAttributeError: module 'sys' has no attribute 'args'\n\nIn [4]: sys.args()\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n<ipython-input-4-5bb1a22b094a> in <module>\n----> 1 sys.args()\n\nAttributeError: module 'sys' has no attribute 'args'\n\nIn [5]: args\n---------------------------------------------------------------------------\nNameError                                 Traceback (most recent call last)\n<ipython-input-5-66dcfad41c76> in <module>\n----> 1 args\n\nNameError: name 'args' is not defined\n\nIn [6]: ",
+					"settings":
+					{
+						"buffer_size": 1364,
+						"line_ending": "Unix",
+						"name": "*REPL* [python]",
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "Packages/User/python3.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Add Repository"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+					"sublime.log_commands(False)",
+					"sublime.log_commands(True)",
+					"sublime.log_commands(False)",
+					"sublime.log_commands(True)",
+					"sublime.log(1)",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/ione/.config/sublime-text-3/Packages/SublimeREPL/config/Python/ipy_repl.py",
+				"/home/ione/.config/sublime-text-3/Packages/User/Python3.sublime-build",
+				"/home/ione/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"as",
+					"())",
+					"version"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/ione/pyscripts/testingsubl.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 30,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										30,
+										30
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1364,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1364,
+										1364
+									]
+								],
+								"settings":
+								{
+									"auto_complete": true,
+									"auto_indent": false,
+									"detect_indentation": false,
+									"gutter": false,
+									"history_arrows": true,
+									"indent_subsequent_lines": false,
+									"line_numbers": false,
+									"repl": true,
+									"repl_external_id": "python",
+									"repl_id": "bc0b1f4915724467adf73276ac72617b",
+									"repl_restart_args":
+									{
+										"cmd":
+										[
+											"ipython3",
+											"-i",
+											"$file_basename"
+										],
+										"cwd": "$file_path",
+										"encoding": "utf8",
+										"extend_env":
+										{
+											"PYTHONIOENCODING": "utf-8"
+										},
+										"external_id": "python",
+										"syntax": "Packages/Python/Python.tmLanguage",
+										"type": "subprocess"
+									},
+									"repl_sublime2": false,
+									"smart_indent": false,
+									"spell_check": false,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 358.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 120.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/Python3.sublime-build",
+			"position": "0,0,0,0,0,259,83,1588,790,1600,900",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
