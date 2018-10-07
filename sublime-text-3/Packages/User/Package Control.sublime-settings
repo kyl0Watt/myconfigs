@@ -5,6 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"Jedi - Python autocompletion",
+		"Jedi Syntax",
+		"Package Control",
 		"SublimeREPL"
 	]
 }
