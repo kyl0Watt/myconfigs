@@ -5,9 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"FileList",
 		"Jedi - Python autocompletion",
 		"Jedi Syntax",
 		"Package Control",
+		"QuickSearchEnhanced",
+		"SnippetMaker",
+		"SnippetManager",
 		"SublimeREPL"
 	]
 }
