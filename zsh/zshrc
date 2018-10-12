@@ -64,7 +64,7 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git sudo web-search zsh-syntax-highlighting
+  git sudo web-search zsh-syntax-highlighting sublime tmux vscode rand-quote pylint pip lol debian common-aliases command-not-found chucknorris
 )
 
 source $ZSH/oh-my-zsh.sh
